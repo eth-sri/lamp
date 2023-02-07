@@ -1,7 +1,9 @@
 # LAMP: Extracting Text from Gradients with <br/> Language Model Priors <a href="https://www.sri.inf.ethz.ch/"><img width="100" alt="portfolio_view" align="right" src="http://safeai.ethz.ch/img/sri-logo.svg"></a>
 
+The code accompanying our NeurIPS 2022 paper: [**LAMP: Extracting Text from Gradients with Language Model Priors**](https://openreview.net/forum?id=6iqd9JAVR1z).
 
-The code accompanying our Neurips 2022 paper: [**LAMP: Extracting Text from Gradients with Language Model Priors**](https://openreview.net/forum?id=6iqd9JAVR1z).
+For a brief overview, check out our **[blogpost](https://www.sri.inf.ethz.ch/blog/lamp)**.
+
 ## Prerequisites
 - Install Anaconda. 
 - Create the conda environment:<br>
