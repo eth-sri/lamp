@@ -14,6 +14,10 @@ For a brief overview, check out our **[blogpost](https://www.sri.inf.ethz.ch/blo
 > wget -r -np -R "index.html*" https://files.sri.inf.ethz.ch/lamp/  
 > mv files.sri.inf.ethz.ch/lamp/* ./    
 > rm -rf files.sri.inf.ethz.ch
+- On newer Linux installations you might encounter the following error:
+> ImportError: libtorch_cpu.so: cannot enable executable stack as shared object requires: Invalid argument
+To mitigate it, execute the following:
+> execstack -c $CONDA_PREFIX/python3.9/site-packages/torch/lib/libtorch_cpu.so
 
 ## Main experiments (Table 1)
 
