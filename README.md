@@ -16,6 +16,7 @@ For a brief overview, check out our **[blogpost](https://www.sri.inf.ethz.ch/blo
 > rm -rf files.sri.inf.ethz.ch
 - On newer Linux installations you might encounter the following error:
 > ImportError: libtorch_cpu.so: cannot enable executable stack as shared object requires: Invalid argument
+
 To mitigate it, execute the following:<br>
 > execstack -c $CONDA_PREFIX/python3.9/site-packages/torch/lib/libtorch_cpu.so
 
